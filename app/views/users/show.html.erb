@@ -2,7 +2,7 @@
   <div class="inner">
     <div class="user__wrapper">
       <h2 class="page-heading">
-        <%= @user_name %>さんの情報
+        <%= link_to "#{@user_name}さんの情報", user_path(@user) %>
       </h2>
       <table class="table">
         <tbody>
